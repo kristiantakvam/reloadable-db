@@ -1,0 +1,15 @@
+[package]
+name = "reloadable-db"
+version = "1.0.0"
+authors = ["Kristian Takvam <kristian@brilliant.org>"]
+
+[profile.release]
+debug = true
+
+[dependencies]
+actix = "0.7.5"
+actix-web = "0.7.5"
+env_logger = "0.5.13"
+memmap = "0.7.0"
+shellexpand = "1.0.0"
+ 
